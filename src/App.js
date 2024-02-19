@@ -1,5 +1,5 @@
 import './App.css';
-import CountComponent from "./context_tutorial/context_test";
+import Calculator from "./personal_example/easy_calculator";
 
 function App() {
     return (
@@ -28,7 +28,10 @@ function App() {
         // <Lifecycle/>
 
         // Context Tutorial
-        CountComponent()
+        // CountComponent()
+
+        // Personal Example
+        <Calculator/>
     );
 
 }
